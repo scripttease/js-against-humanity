@@ -7,13 +7,14 @@
     <title>Javascript Against Humanity</title>
   </head>
   <body>
+    <h2 style="font-family: 'Arimo', sans-serif; text-align: center">Javascript Against Humanity</h2>
     <div class="cards">
       <div id="card-container" preserveAspectRatio="xMidYMid slice" style="width: 100%; padding-bottom: 74%, height: 1px; overflow: visible">
-        <p id="black-card-text" style="color: white; position: absolute; top: 30px; left:37px; width: 200px; height:280px; font-family: 'Arimo', sans-serif; line-height: 1.4; font-size: large">
-        Pick a card, any card, absolutely any card at all, seriously - go on. Just pick one already... NO! NOT THAT ONE.
+        <p id="black-card-text" style="color: white; position: absolute; top: 105px; left:37px; width: 200px; height:280px; font-family: 'Arimo', sans-serif; line-height: 1.4; font-size: large">
+        Pick a card, any card, absolutely any card at all, seriously - go on. Just pick one already... NO! NOT THAT ONE.<br> (click here)
         <!-- /* (Sheesh. Some people. Honestly. Did I tell you about that time? I was doing this gig in Slough. Tough crowd, seriously. Well, there was this guy...) Ask jess about resizing text dynamically.*/ -->
         </p>
-        <p id="white-card-text" style="color: black; position: absolute; top: 30px; left:297px; width: 200px; height:280px; font-family: 'Arimo', sans-serif; line-height: 1.4; font-size: xx-large; text-align: center">???
+        <p id="white-card-text" style="color: black; position: absolute; top: 105px; left:297px; width: 200px; height:280px; font-family: 'Arimo', sans-serif; line-height: 1.4; font-size: xx-large; text-align: center">???
         </p>
       </div>
     </div>
@@ -22,7 +23,7 @@
 function cardDraw() {
   document.getElementById("black-card-text").innerHTML = cheekyQuestions[getRandomInt(0,cheekyQuestions.length -1)];
   var wct = document.getElementById("white-card-text");
-  wct.setAttribute("style", "color: black; position: absolute; top: 30px; left:297px; width: 200px; height:280px; font-family: 'Arimo', sans-serif; line-height: 1.4; font-size: large; text-align: left");
+  wct.setAttribute("style", "color: black; position: absolute; top: 105px; left:297px; width: 200px; height:280px; font-family: 'Arimo', sans-serif; line-height: 1.4; font-size: large; text-align: left");
    wct.innerHTML = straightAnswers[getRandomInt(0,cheekyQuestions.length -1)];
 }
 
@@ -124,7 +125,7 @@ cheekyQuestions = [
 , "When Pharaoh remained unmoved, Moses called down a Plague of _____."
 , "My secret power is _____"
 , "There will be no _____ in heaven"
-, "Vin Diesel eat's _____ for breakfast"
+, "Vin Diesel eats _____ for breakfast"
 , "_____: good to the last drop."
 , "Why am I sticky?"
 , "_____ gets better with age."
