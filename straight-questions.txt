@@ -1,82 +1,84 @@
-_____ is giving me problems in production
-Tell them that _____ is a feature, not a bug
-The internet is for cat memes and _____
-The Internet of Things will be controlled by _____.
-_____ is unsupported in Internet Explorer
-Susie from production asked for _____ so I gave her _____.
-We need to optimise _____
-______ is highly available, idempotent, and load balancing.
-It's not a bug it's _____.
-Fuctional programming can solve the problem of _____.
-No one knows as much about _______ as the beardy dev in the corner
-My pull request was rejected because of _____
-My stacktrace revealed _____
-_____, because who needs monitoring. 
-You can totally replace testing with _____
-Uncommented code leads to _____
-_____ gave me more errors than I started with
-_____ invalidated all our assumptions
-_____ wasted thousands of dollars
-No one can authenticate because of ______
-Everyone on the dev team had to work late bcause of ____
-_____ is mission critical
-I never truly understood eXtreme programming until I encountered _____.
-The Agile Manifesto taught me to pick _____ over _____
-_____ is more relaible than _____
-End-to-end _____
-Javascript is the best language ever, thanks to _____
-Last night while drunk, the W3C declared _____ as a new web standard.
-Only two things in deployment are certain, missed deadlines and ______.
-_____ -driven development
-_____ ate all my memory.
-_____ is always a good practice.
-It's easy! Just run _____
-I assure you _____ is secure!
-Our backup policy is _____.
-There are whisperings that the Google Headquarters has a secret room devoted to _____
-In a pinch, _______ can be a suitable substitute for _______.
-In its new tourism campaign, Silicon Valley proudly proclaims that it has finally eliminated ________
-I bet the person who wrote this uses _____.
-I enjoy _____, while my code is compiling.
-Don't worry, we have unit tests for _____.
-Blaming dev intern for _____
-_____ is my favourite thing about _____
-Dev morale would be improved if we had _____ in our office
-I've once been so drunk that _____ actually made sense
-To understand _____ you must first understand _____.
-Multiple backend penetration  is achieved with _____
-You can force kill your children by _____
-_____ corrupts your children's memory
-_____ behaves like a dangling socket
-Before you penetrate someone's backend, you first must _____
-I upload my worm to _____
-I fork my children with _____
-My shared socket connects to ____'s backend
-I can't believe you improved ______ by deleting __________
-The only thing more dangerous than _____ is a programmer with ________.
-1.  ________ 2. _________  3. Profit.
-"Monads are easy! Just think of them as _______"
-_____: powered by the cloud.
-insertBerfore ______.
-I once made a robot around the concept of _____.
-According to trends on Github, the next big thing is _____.
-It took over 40 hours to document _____. 
--- TODO: _____.
-npm install _____.
-Support for _____ has finally arrived.
-I got 99 github Issues but _____ ain't one
-_____: Doing it the Production way
-_____ : I like to do it functionally
-I think _____ needs tests.
-I'll be working late because _____ is about to catch fire.
-We wrote our own build tool based on _____.
-We can't pay you, but we can offer _____ in compensation.
-Development is 90% _____ and 10% _____.
-Cowsay _____.
-_____ worked in development.
-We took the plunge and rewrote _______ in Go.
-Implementing _____________ should take only 2 lines of code.
-Learn _____ the hard way.
-It's just a hack to make _____ run.
-It's been 91 days since _____ was updated
-_____ is Turing complete.
+straightQuestions = [
+"_____ is giving me problems in production"
+, "Tell them that _____ is a feature, not a bug"
+, "The internet is for cat memes and _____"
+, "The Internet of Things will be controlled by _____."
+, "_____ is unsupported in Internet Explorer"
+, "Susie from production asked for _____ so I gave her _____."
+, "We need to optimise _____"
+, "______ is highly available, idempotent, and load balancing."
+, "It's not a bug it's _____."
+, "Fuctional programming can solve the problem of _____."
+, "No one knows as much about _______ as the beardy dev in the corner"
+, "My pull request was rejected because of _____"
+, "My stacktrace revealed _____"
+, "_____, because who needs monitoring. "
+, "You can totally replace testing with _____"
+, "Uncommented code leads to _____"
+, "_____ gave me more errors than I started with"
+, "_____ invalidated all our assumptions"
+, "_____ wasted thousands of dollars"
+, "No one can authenticate because of ______"
+, "Everyone on the dev team had to work late bcause of ____"
+, "_____ is mission critical"
+, "I never truly understood eXtreme programming until I encountered _____."
+, "The Agile Manifesto taught me to pick _____ over _____"
+, "_____ is more relaible than _____"
+, "End-to-end _____"
+, "Javascript is the best language ever, thanks to _____"
+, "Last night while drunk, the W3C declared _____ as a new web standard."
+, "Only two things in deployment are certain, missed deadlines and ______."
+, "_____ -driven development"
+, "_____ ate all my memory."
+, "_____ is always a good practice."
+, "It's easy! Just run _____"
+, "I assure you _____ is secure!"
+, "Our backup policy is _____."
+, "There are whisperings that the Google Headquarters has a secret room devoted to _____"
+, "In a pinch, _______ can be a suitable substitute for _______."
+, "In its new tourism campaign, Silicon Valley proudly proclaims that it has finally eliminated ________"
+, "I bet the person who wrote this uses _____."
+, "I enjoy _____, while my code is compiling."
+, "Don't worry, we have unit tests for _____."
+, "Blaming dev intern for _____"
+, "_____ is my favourite thing about _____"
+, "Dev morale would be improved if we had _____ in our office"
+, "I've once been so drunk that _____ actually made sense"
+, "To understand _____ you must first understand _____."
+, "Multiple backend penetration  is achieved with _____"
+, "You can force kill your children by _____"
+, "_____ corrupts your children's memory"
+, "_____ behaves like a dangling socket"
+, "Before you penetrate someone's backend, you first must _____"
+, "I upload my worm to _____"
+, "I fork my children with _____"
+, "My shared socket connects to ____'s backend"
+, "I can't believe you improved ______ by deleting __________"
+, "The only thing more dangerous than _____ is a programmer with ________."
+, "1.  ________ 2. _________  3. Profit."
+, ""Monads are easy! Just think of them as _______""
+, "_____: powered by the cloud."
+, "insertBerfore ______."
+, "I once made a robot around the concept of _____."
+, "According to trends on Github, the next big thing is _____."
+, "It took over 40 hours to document _____. "
+, "-- TODO: _____."
+, "npm install _____."
+, "Support for _____ has finally arrived."
+, "I got 99 github Issues but _____ ain't one"
+, "_____: Doing it the Production way"
+, "_____ : I like to do it functionally"
+, "I think _____ needs tests."
+, "I'll be working late because _____ is about to catch fire."
+, "We wrote our own build tool based on _____."
+, "We can't pay you, but we can offer _____ in compensation."
+, "Development is 90% _____ and 10% _____."
+, "Cowsay _____."
+, "_____ worked in development."
+, "We took the plunge and rewrote _______ in Go."
+, "Implementing _____________ should take only 2 lines of code."
+, "Learn _____ the hard way."
+, "It's just a hack to make _____ run."
+, "It's been 91 days since _____ was updated"
+, "_____ is Turing complete."
+];

@@ -1,4 +1,4 @@
-cheekyQuestions = [ "
+cheekyQuestions = [
 "If _____ is the answer, you are asking the wrong question."
 , "The universe was brought into existence by _____."
 , "_____ brought the orgy to a grinding halt"
