@@ -571,6 +571,18 @@ function jah() {
         , "Windows NT"
         , "Internet Explorer"
         , "Elixir"
+        , "404: Not Found"
+        , "405: Method Not Allowed"
+        , "403: Forbidden"
+        , "406: NOT ACCEPTABLE"
+        , "413: Payload Too Large"
+        , "414: URI Too Long"
+        , "'417: Expectation Failed' error"
+        , "'418: I'm A Teapot' Response code"
+        , "429: Too Many Requests"
+        , "451: Unavailable For Legal Reasons"
+        , "'450: Blocked by Windows Parental Controls'"
+        , "'499: Request has been forbidden by antivirus' messages"
         ];
   };
 }
