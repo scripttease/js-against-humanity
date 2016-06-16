@@ -87,13 +87,13 @@ function jah() {
       ["cheekyQuestion", "It turns out that _____ wasn't a suitable birthday gift for my OH."], 
       ["cheekyQuestion", "And I would have gotten away with it, too, if it hadn't been for ________."], 
       ["cheekyQuestion", "Maybe she's born with it, maybe it's _____"], 
-      ["cheekyQuestion", "Anthropologists have recently discovered a primitive tribe that worships _."], 
-      ["cheekyQuestion", "It's a pity that kids these days are all getting involved with _."], 
-      ["cheekyQuestion", "During Picasso's often-overlooked Brown Period, he produced hundreds of paintings of _."], 
-      ["cheekyQuestion", "Alternative medicine is now embracing the curative powers of _."], 
+      ["cheekyQuestion", "Anthropologists have recently discovered a primitive tribe that worships _____."], 
+      ["cheekyQuestion", "It's a pity that kids these days are all getting involved with _____."], 
+      ["cheekyQuestion", "During Picasso's often-overlooked Brown Period, he produced hundreds of paintings of _____."], 
+      ["cheekyQuestion", "Alternative medicine is now embracing the curative powers of ______."], 
       ["cheekyQuestion", "And the Academy Award for _____ goes to ______."], 
       ["cheekyQuestion", "I drink to forget ______."], 
-      ["cheekyQuestion", "This is the way the world ends. Not with a bang but with _."], 
+      ["cheekyQuestion", "This is the way the world ends. Not with a bang but with _____."], 
       ["cheekyQuestion", "What's a girl's best friend?"], 
       ["cheekyQuestion", "TSA guidelines now prohibit _____ on aeroplanes."], 
       ["cheekyQuestion", "______.  That's how I want to die."], 
@@ -127,7 +127,7 @@ function jah() {
       ["cheekyQuestion", "When Pharaoh remained unmoved, Moses called down a Plague of _____."], 
       ["cheekyQuestion", "My secret power is _____"], 
       ["cheekyQuestion", "There will be no _____ in heaven"], 
-      ["cheekyQuestion", "Vin Diesel eat's _____ for breakfast"], 
+      ["cheekyQuestion", "Vin Diesel eats _____ for breakfast"], 
       ["cheekyQuestion", "_____: good to the last drop."], 
       ["cheekyQuestion", "Why am I sticky?"], 
       ["cheekyQuestion", "_____ gets better with age."], 
@@ -215,7 +215,7 @@ function jah() {
       ["straightQuestion", "I once made a robot around the concept of _____."], 
       ["straightQuestion", "According to trends on Github, the next big thing is _____."], 
       ["straightQuestion", "It took over 40 hours to document _____. "], 
-      ["straightQuestion", "-- TODO: _____."], 
+      ["straightQuestion", "// TODO: _____."], 
       ["straightQuestion", "npm install _____."], 
       ["straightQuestion", "Support for _____ has finally arrived."], 
       ["straightQuestion", "I got 99 github Issues but _____ ain't one"], 
@@ -251,10 +251,10 @@ function jah() {
         , "It turns out that _____ wasn't a suitable birthday gift for my OH."
         , "And I would have gotten away with it, too, if it hadn't been for ________."
         , "Maybe she's born with it, maybe it's _____"
-        , "Anthropologists have recently discovered a primitive tribe that worships _."
+        , "Anthropologists have recently discovered a primitive tribe that worships _____."
         , "It's a pity that kids these days are all getting involved with _."
-        , "During Picasso's often-overlooked Brown Period, he produced hundreds of paintings of _."
-        , "Alternative medicine is now embracing the curative powers of _."
+        , "During Picasso's often-overlooked Brown Period, he produced hundreds of paintings of _____."
+        , "Alternative medicine is now embracing the curative powers of _____."
         , "And the Academy Award for _____ goes to ______."
         , "I drink to forget ______."
         , "This is the way the world ends. Not with a bang but with _."
@@ -464,7 +464,7 @@ function jah() {
         , "I once made a robot around the concept of _____."
         , "According to trends on Github, the next big thing is _____."
         , "It took over 40 hours to document _____. "
-        , "-- TODO: _____."
+        , "// TODO: _____."
         , "npm install _____."
         , "Support for _____ has finally arrived."
         , "I got 99 github Issues but _____ ain't one"
@@ -498,7 +498,7 @@ function jah() {
         , "The Cult of Mac"
         , "The fucking JVM"
         , "Morning Standups"
-        , "The <body> tag"
+        , "The \<body\> tag"
         , "Munging"
         , "That goddam paperclip"
         , "The smell of the guy from sysadmin"
@@ -506,10 +506,10 @@ function jah() {
         , "Sudo rm-rf /"
         , "Inappropriately contracted variable names"
         , "Spaces not tabs"
-        , "Stackoverflow is down??!!!!"
+        , "Discovering Stackoverflow is down!!!??!!!!"
         , "Ruby"
         , "Sinatra"
-        , "-- What does this even do?"
+        , "// What does this even do?"
         , "Slackware"
         , "Rack"
         , "Short Stroking"
@@ -559,7 +559,7 @@ function jah() {
         , "command line options"
         , "Commenting every line of code"
         , "Committing from the bar."
-        , "--TO DO"
+        , "// TO DO"
         , "Continuous testing"
         , "The Blue Screen of Death"
         , "Tail recursion"
