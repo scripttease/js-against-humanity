@@ -1,0 +1,41 @@
+body {
+font-family: "Arimo:700", sans-serif;
+font-weight: 700;
+}
+
+h2 {
+font-family: "Arimo:700", sans-serif;
+text-align: center;
+}
+
+#card-container {
+  width: 100%; 
+  padding-bottom: 74%;
+  height: 1px; 
+  overflow: visible
+}
+
+#black-card-text {
+  color: white; 
+  position: absolute; 
+  top: 105px; 
+  left:37px; 
+  width: 200px; 
+  height:280px; 
+  font-family: 'Arimo:700', sans-serif; 
+  line-height: 1.4; 
+  font-size: large
+}
+
+#white-card-text {
+  color: black; 
+  position: absolute; 
+  top: 105px; 
+  left:297px; 
+  width: 200px; 
+  height:280px; 
+  font-family: 'Arimo:700', sans-serif; 
+  line-height: 1.4; 
+  font-size: xx-large;
+  text-align: center
+}
