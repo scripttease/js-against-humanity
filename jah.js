@@ -18,7 +18,6 @@ function cardDraw() {
     } else {
       wct.innerHTML = cheekyAnswers[getRandomInt(0,cheekyAnswers.length -1)];
     }
-  
 }
 
 function jah() {
@@ -28,50 +27,8 @@ function jah() {
   document.getElementById("white-card-text").setAttribute("onclick", "cardDraw()");
   document.getElementById("black-card-text").setAttribute("onclick", "cardDraw()");
 
-// Create SVG space
-
-  window.onload=function(){
-    var mySVG=document.createElementNS("http://www.w3.org/2000/svg", "svg");
-    mySVG.setAttribute("width",540);
-    mySVG.setAttribute("height",360);
-    mySVG.setAttribute("id","deck");
-    mySVG.setAttribute("viewBox", "0 0 540 360");
-
-    document.getElementById("card-container").appendChild(mySVG);
-
-// Create Black Question Card
 // find a way to center the cards - use viewport width? vh vmin etc?
-// use css for cards?
-// borderbox in css?
 
-    var devBlack=document.createElementNS("http://www.w3.org/2000/svg", "rect");
-    devBlack.setAttribute("class","dev-black");
-    devBlack.setAttribute("width",250);
-    devBlack.setAttribute("height",350);
-    devBlack.setAttribute("x", 5);
-    devBlack.setAttribute("y", 5);
-    devBlack.setAttribute("rx", 15);
-    devBlack.setAttribute("ry", 15);
-    devBlack.setAttribute("fill", "black");
-    devBlack.setAttribute("stroke", "black");
-    devBlack.setAttribute("stroke-width",2);
-    mySVG.appendChild(devBlack);
-
-// Create Answer Card (White)
-
-    var devWhite=document.createElementNS("http://www.w3.org/2000/svg", "rect");
-    devWhite.setAttribute("class","dev-white");
-    devWhite.setAttribute("width",250);
-    devWhite.setAttribute("height",350);
-    devWhite.setAttribute("x", 275);
-    devWhite.setAttribute("y", 5);
-    devWhite.setAttribute("rx", 15);
-    devWhite.setAttribute("ry", 15);
-    devWhite.setAttribute("fill", "white");
-    devWhite.setAttribute("stroke", "black");
-    devWhite.setAttribute("stroke-width",2);
-
-    mySVG.appendChild(devWhite);
 
 // Question Arrays
 
@@ -205,7 +162,7 @@ function jah() {
       ["straightQuestion", "You can force kill your children by _____"], 
       ["straightQuestion", "_____ corrupts your children's memory"], 
       ["straightQuestion", "_____ behaves like a dangling socket"], 
-      ["straightQuestion", "Before you penetrate someone's backend, you first must _____"], 
+      ["straightQuestion", "Before you penetrate someone's backend, you first must consider _____"], 
       ["straightQuestion", "I upload my worm to _____"], 
       ["straightQuestion", "I fork my children with _____"], 
       ["straightQuestion", "My shared socket connects to ____'s backend"], 
@@ -588,6 +545,6 @@ function jah() {
         , "'499: Request has been forbidden by antivirus' messages"
         ];
   };
-}
+
 
 jah();
