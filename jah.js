@@ -4,6 +4,8 @@ function getRandomInt(min, max) {
   return Math.floor(Math.random() * (max - min)) + min;
 }
 
+var whiteCard = document.getElementById("white-card-text");
+var blackCard = document.getElementById("black-card-text");
 // Card Draw Function
 
 function cardDraw() {
@@ -12,15 +14,14 @@ function cardDraw() {
   var qCard = questions[randomNumBlack];
   var qType = qCard[0];
   var qText = qCard[1];
-  document.getElementById("black-card-text").innerHTML = qText;
-  var wct = document.getElementById("white-card-text");
-  wct.setAttribute("style", "font-size: large; text-align: left");
+  blackCard.innerHTML = qText;
+  whiteCard.setAttribute("style", "font-size: large; text-align: left");
   if (qType == "cheekyQuestion") {
     var randomNumWhite = getRandomInt(0, straightAnswers.length -1);
-    wct.innerHTML = straightAnswers[randomNumWhite];
+    whiteCard.innerHTML = straightAnswers[randomNumWhite];
   } else {
     var randomNumWhite = getRandomInt(0,cheekyAnswers.length -1);
-    wct.innerHTML = cheekyAnswers[randomNumWhite];
+    whiteCard.innerHTML = cheekyAnswers[randomNumWhite];
   }
   var cardsHash = randomNumBlack.toString() + ":" + randomNumWhite.toString();
   window.location.hash = cardsHash;
@@ -28,8 +29,8 @@ function cardDraw() {
 
 // Card Draw Action
 
-document.getElementById("white-card-text").onclick = cardDraw;
-document.getElementById("black-card-text").onclick = cardDraw;
+blackCard.onclick = cardDraw;
+whiteCard.onclick = cardDraw;
 
 var pattern = /^#(\d+):(\d+)$/;
 var match = pattern.exec(window.location.hash);
@@ -40,13 +41,12 @@ if (match) {
   var qCard = questions[blackNum];
   var qType = qCard[0];
   var qText = qCard[1];
-  document.getElementById("black-card-text").innerHTML = qText;
+  blackCard.innerHTML = qText;
 
-  var wct = document.getElementById("white-card-text");
-  wct.setAttribute("style", "font-size: large; text-align: left");
+  whiteCard.setAttribute("style", "font-size: large; text-align: left");
   if (qType == "cheekyQuestion") {
-    wct.innerHTML = straightAnswers[whiteNum];
+    whiteCard.innerHTML = straightAnswers[whiteNum];
   } else {
-    wct.innerHTML = cheekyAnswers[whiteNum];
+    whiteCard.innerHTML = cheekyAnswers[whiteNum];
   }
 }
