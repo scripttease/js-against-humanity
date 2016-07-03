@@ -30,3 +30,23 @@ function cardDraw() {
 
 document.getElementById("white-card-text").onclick = cardDraw;
 document.getElementById("black-card-text").onclick = cardDraw;
+
+var pattern = /^#(\d+):(\d+)$/;
+var match = pattern.exec(window.location.hash);
+if (match) {
+  var blackNum = parseInt(match[1]);
+  var whiteNum = parseInt(match[2]);
+
+  var qCard = questions[blackNum];
+  var qType = qCard[0];
+  var qText = qCard[1];
+  document.getElementById("black-card-text").innerHTML = qText;
+
+  var wct = document.getElementById("white-card-text");
+  wct.setAttribute("style", "font-size: large; text-align: left");
+  if (qType == "cheekyQuestion") {
+    wct.innerHTML = straightAnswers[whiteNum];
+  } else {
+    wct.innerHTML = cheekyAnswers[whiteNum];
+  }
+}
