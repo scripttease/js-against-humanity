@@ -11,18 +11,25 @@ function getRandomInt(min, max) {
 // Card Draw Function
 
 function cardDraw() {
-  var qCard = questions[getRandomInt(0,questions.length -1)];
+  // before you assign the random numbers to the array, put them into  
+  var randomNumBlack = getRandomInt(0, questions.length -1);
+  var qCard = questions[randomNumBlack];
   var qType = qCard[0];
   var qText = qCard[1];
   document.getElementById("black-card-text").innerHTML = qText;
   var wct = document.getElementById("white-card-text");
   wct.setAttribute("style", "font-size: large; text-align: left");
   if (qType == "cheekyQuestion") {
-    wct.innerHTML = straightAnswers[getRandomInt(0,straightAnswers.length -1)];
+    var randomNumWhite = getRandomInt(0, straightAnswers.length -1);
+    wct.innerHTML = straightAnswers[randomNumWhite];
   } else {
-    wct.innerHTML = cheekyAnswers[getRandomInt(0,cheekyAnswers.length -1)];
+    var randomNumWhite = getRandomInt(0,cheekyAnswers.length -1);
+    wct.innerHTML = cheekyAnswers[randomNumWhite];
   }
+  var cardsHash = randomNumBlack.toString() + ":" + randomNumWhite.toString();
+  window.location.hash = cardsHash;
 }
+
 
 function jah() {
 
