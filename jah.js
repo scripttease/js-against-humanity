@@ -25,6 +25,9 @@ function cardDraw() {
   }
   var cardsHash = randomNumBlack.toString() + ":" + randomNumWhite.toString();
   window.location.hash = cardsHash;
+  var tweetURI = "https://twitter.com/intent/tweet?url=" + encodeURIComponent(window.location.href);
+  var tweetButton = document.getElementById("tweet-button");
+  tweetButton.href = tweetURI;
 }
 
 // Card Draw Action
@@ -51,6 +54,3 @@ if (match) {
   }
 }
 
-var tweetURI = "https://twitter.com/intent/tweet?url=" + encodeURIComponent(window.location.href);
-var tweetButton = document.getElementById("tweet-button");
-tweetButton.href = tweetURI;
