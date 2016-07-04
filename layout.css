@@ -60,3 +60,9 @@ text-align: center;
   text-align: center
 }
 
+.buttons {
+  display: block;
+  position: absolute;
+  top: 425px;
+  left: 13px;
+}

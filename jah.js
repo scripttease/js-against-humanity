@@ -50,3 +50,7 @@ if (match) {
     whiteCard.innerHTML = cheekyAnswers[whiteNum];
   }
 }
+
+var tweetURI = "https://twitter.com/intent/tweet?url=" + encodeURIComponent(window.location.href);
+var tweetButton = document.getElementById("tweet-button");
+tweetButton.href = tweetURI;
